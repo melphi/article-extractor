@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b5aed79-0bd2-451f-9f71-92d6cb444c55" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/readability/service/app/readability/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/JSDOMParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/Readability.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/benchmarks/benchmark-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/benchmarks/benchmarks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/generate-testcase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-jsdomparser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/001/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/001/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/001/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/002/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/002/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/002/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ars-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ars-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ars-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/base-url/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/base-url/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/base-url/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/basic-tags-cleaning/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/basic-tags-cleaning/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/basic-tags-cleaning/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/bbc-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/bbc-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/bbc-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/blogger/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/blogger/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/blogger/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/breitbart/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/breitbart/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/breitbart/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/bug-1255978/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/bug-1255978/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/bug-1255978/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/buzzfeed-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/buzzfeed-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/buzzfeed-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/clean-links/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/clean-links/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/clean-links/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/cnet/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/cnet/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/cnet/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/cnn/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/cnn/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/cnn/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/comment-inside-script-parsing/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/comment-inside-script-parsing/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/comment-inside-script-parsing/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/daringfireball-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/daringfireball-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/daringfireball-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ehow-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ehow-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ehow-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ehow-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ehow-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ehow-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/embedded-videos/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/embedded-videos/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/embedded-videos/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/gmw/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/gmw/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/gmw/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/heise/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/heise/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/heise/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/herald-sun-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/herald-sun-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/herald-sun-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/iab-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/iab-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/iab-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ietf-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ietf-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/ietf-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/keep-images/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/keep-images/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/keep-images/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lemonde-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lemonde-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lemonde-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/liberation-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/liberation-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/liberation-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lifehacker-post-comment-load/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lifehacker-post-comment-load/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lifehacker-post-comment-load/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lifehacker-working/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lifehacker-working/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lifehacker-working/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/links-in-tables/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/links-in-tables/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/links-in-tables/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lwn-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lwn-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/lwn-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-3/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-3/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/medium-3/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/missing-paragraphs/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/missing-paragraphs/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/missing-paragraphs/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/mozilla-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/mozilla-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/mozilla-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/mozilla-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/mozilla-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/mozilla-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/msn/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/msn/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/msn/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/normalize-spaces/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/normalize-spaces/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/normalize-spaces/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/nytimes-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/nytimes-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/nytimes-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/nytimes-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/nytimes-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/nytimes-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/pixnet/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/pixnet/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/pixnet/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/qq/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/qq/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/qq/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-extra-brs/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-extra-brs/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-extra-brs/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-extra-paragraphs/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-extra-paragraphs/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-extra-paragraphs/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-script-tags/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-script-tags/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/remove-script-tags/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/reordering-paragraphs/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/reordering-paragraphs/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/reordering-paragraphs/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/replace-brs/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/replace-brs/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/replace-brs/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/replace-font-tags/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/replace-font-tags/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/replace-font-tags/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-3/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-3/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-3/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-4/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-4/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/rtl-4/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/salon-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/salon-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/salon-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/simplyfound-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/simplyfound-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/simplyfound-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/social-buttons/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/social-buttons/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/social-buttons/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/style-tags-removal/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/style-tags-removal/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/style-tags-removal/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/svg-parsing/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/svg-parsing/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/svg-parsing/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/tmz-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/tmz-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/tmz-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/tumblr/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/tumblr/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/tumblr/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wapo-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wapo-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wapo-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wapo-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wapo-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wapo-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/webmd-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/webmd-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/webmd-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/webmd-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/webmd-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/webmd-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wikia/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wikia/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wikia/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wikipedia/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wikipedia/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wikipedia/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wordpress/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wordpress/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/wordpress/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-1/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-1/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-1/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-2/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-2/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-2/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-3/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-3/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-3/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-4/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-4/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/yahoo-4/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/youth/expected-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/youth/expected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-pages/youth/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/test-readability.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/readability/readability/test/utils.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/boom/images/boom.png" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/boom/images/boom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/images/hawk.png" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/images/hawk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/images/logo.png" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/semver/semver.browser.js.gz" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/semver/semver.browser.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/semver/semver.min.js.gz" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/semver/semver.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/.idea/modules.xml" afterPath="$PROJECT_DIR$/js/readability/service/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/.idea/service.iml" afterPath="$PROJECT_DIR$/js/readability/service/.idea/service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/js/readability/service/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/acorn" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/acorn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/bunyan" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/bunyan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/escodegen" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/escodegen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/esgenerate" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/esgenerate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/esparse" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/esparse" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/esvalidate" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/esvalidate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/mime" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/mkdirp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/ncp" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/ncp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/report-latency" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/report-latency" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/rimraf" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/rimraf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/sshpk-conv" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/sshpk-conv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/sshpk-sign" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/sshpk-sign" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/sshpk-verify" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/sshpk-verify" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/.bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/acorn/bin/acorn" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/acorn/bin/acorn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/ajv/scripts/info" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/ajv/scripts/info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/ajv/scripts/prepare-tests" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/ajv/scripts/prepare-tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/ajv/scripts/travis-gh-pages" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/ajv/scripts/travis-gh-pages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/boom/.travis.yml" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/boom/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/boom/LICENSE" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/boom/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/boom/README.md" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/boom/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/boom/test/index.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/boom/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/bin/bunyan" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/bin/bunyan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/node_modules/dtrace-provider/libusdt-build.sh" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/node_modules/dtrace-provider/libusdt-build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/node_modules/dtrace-provider/libusdt/test.pl" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/node_modules/dtrace-provider/libusdt/test.pl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/node_modules/dtrace-provider/scripts/install.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/bunyan/node_modules/dtrace-provider/scripts/install.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/LICENSE" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/package.json" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/test/index.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/cryptiles/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/cssstyle/scripts/run_tests.sh" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/cssstyle/scripts/run_tests.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/ctype/tools/jsl.conf" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/ctype/tools/jsl.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/ctype/tools/jsstyle" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/ctype/tools/jsstyle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/dtrace-provider/libusdt-build.sh" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/dtrace-provider/libusdt-build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/dtrace-provider/libusdt/test.pl" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/dtrace-provider/libusdt/test.pl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/dtrace-provider/scripts/install.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/dtrace-provider/scripts/install.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/escodegen/bin/escodegen.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/escodegen/bin/escodegen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/escodegen/bin/esgenerate.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/escodegen/bin/esgenerate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/esprima/bin/esparse.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/esprima/bin/esparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/esprima/bin/esvalidate.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/esprima/bin/esvalidate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/LICENSE" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/example/usage.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/example/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/package.json" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/browser.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/index.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/readme.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/readme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/server.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/uri.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/utils.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hawk/test/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/hpack.js/bin/benchmark" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/hpack.js/bin/benchmark" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/mime/cli.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/mime/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/mkdirp/bin/cmd.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/mkdirp/bin/cmd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/nan/tools/1to2.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/nan/tools/1to2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/ncp/bin/ncp" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/ncp/bin/ncp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/node-uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/node-uuid/benchmark/bench.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/node-uuid/bin/uuid" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/node-uuid/bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/pn/scripts/generate.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/pn/scripts/generate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/request/index.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/request/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/request/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/request/node_modules/.bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/request/node_modules/uuid/bin/uuid" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/request/node_modules/uuid/bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/restify/bin/report-latency" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/restify/bin/report-latency" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/rimraf/bin.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/rimraf/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/semver/bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/.travis.yml" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/LICENSE" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/Makefile" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/README.md" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/examples/offset.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/examples/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/examples/time.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/examples/time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/index.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/package.json" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/test/index.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sntp/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/source-map/test/run-tests.js" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/source-map/test/run-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sshpk/bin/sshpk-conv" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sshpk/bin/sshpk-conv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sshpk/bin/sshpk-sign" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sshpk/bin/sshpk-sign" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/readability/service/node_modules/sshpk/bin/sshpk-verify" afterPath="$PROJECT_DIR$/js/readability/service/node_modules/sshpk/bin/sshpk-verify" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/readability/service/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/readability/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/readability/service/app/readability/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article-extractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article-extractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article-extractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article-extractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="article-extractor" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b5aed79-0bd2-451f-9f71-92d6cb444c55" name="Default" comment="" />
+      <created>1498568260280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498568260280</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/readability/readability/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readability/service/app/readability/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readability/service/app/readability/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readability/service/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readability/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
