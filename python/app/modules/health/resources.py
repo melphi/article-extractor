@@ -1,7 +1,7 @@
-from ...utils import HttpUtils
+from aiohttp import web
 
 
 class HealthResources(object):
     @staticmethod
     async def get(request):
-        return HttpUtils.send_response({'message': 'I''m healthy! :)'})
+        return web.json_response({'message': 'I''m healthy! :)'})

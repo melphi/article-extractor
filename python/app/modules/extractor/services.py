@@ -13,7 +13,7 @@ class ArticleExtractor(object):
 
 
 class ReadabilityArticleExtractor(ArticleExtractor):
-    _READABILITY_URL = 'http://localhost:5000/extract'
+    _READABILITY_URL = 'http://readability:5000/extract'
 
     def __init__(self, client_session: ClientSession):
         self._client_session = client_session
@@ -50,15 +50,24 @@ class HttpPageFetcher(PageFetcher):
 
 
 class DocumentExtractorService(object):
-    _PAGE_LINK_REGEX = compile('href=\"([^\"]*)')
+    _ARTICLE_LINK_REGEX = compile('href=\"([^\"]*)')
     _ARTICLE_IMAGE_REGEX = compile('src=\"([^\"]*)')
-    _SUFFIX_BLACKLIST = ['css', 'js']
-    _PREFIX_BLACKLIST = ['javascript']
 
     def __init__(self, page_fetcher: PageFetcher,
                  article_extractor: ArticleExtractor):
         self._page_fetcher = page_fetcher
         self._article_extractor = article_extractor
+
+    @staticmethod
+    def _extract_page_info(article: dict, url: str) -> dict:
+        """Extracts additional page information."""
+
+        language = detect(article['content_text'])
+        if len(language) > 2 and len(language[2]) > 1:
+            language_code = language[2][0][1]
+        else:
+            language_code = None
+        return {'url': url, 'language': language_code}
 
     async def extract(self, url: str) -> dict:
         """Returns article content and page information for the given url.
@@ -77,42 +86,19 @@ class DocumentExtractorService(object):
                 - page
                     - url: The page url.
                     - language: The language code (2 digits).
-                    - all_links: All the external links found in the page.
                 - insight (not yet implemented)
                     - entities: Entities name recognition.
         """
 
         page_raw = await self._page_fetcher.fetch_page(url)
         article = await self._extract_article_info(page_raw.content, url)
-        page = self._extract_page_info(page_raw, article, url)
+        page = self._extract_page_info(article, url)
         return {'article': article, 'page': page}
 
     async def _extract_article_info(self, content: str, url: str) -> dict:
         article = await self._article_extractor.extract_article(content, url)
-        article['links'] = set(self._PAGE_LINK_REGEX.findall(
+        article['links'] = set(self._ARTICLE_LINK_REGEX.findall(
             article['content_html']))
         article['images'] = set(self._ARTICLE_IMAGE_REGEX.findall(
             article['content_html']))
         return article
-
-    def _valid_link(self, link: str) -> bool:
-        for prefix in self._PREFIX_BLACKLIST:
-            if link.startswith(prefix):
-                return False
-        for suffix in self._SUFFIX_BLACKLIST:
-            if link.endswith(suffix):
-                return False
-        return True
-
-    def _extract_page_info(self, page_raw: PageRaw, article: dict, url: str) \
-            -> dict:
-        """Extracts additional page information."""
-
-        language = detect(article['content_text'])
-        if len(language) > 2 and len(language[2]) > 1:
-            language_code = language[2][0][1]
-        else:
-            language_code = None
-        all_links = set(self._PAGE_LINK_REGEX.findall(page_raw.content))
-        all_links = [link for link in all_links if self._valid_link(link)]
-        return {'url': url, 'language': language_code, 'all_links': all_links}

@@ -2,8 +2,7 @@
   "name": "article-extractor",
   "version": "0.0.1",
   "scripts": {
-    "start": "tsc -w",
-    "build": "npm run clean && tsc"
+    "start": "node app/service.js"
   },
   "dependencies": {
     "jsdom": "11.0.0",

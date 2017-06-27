@@ -9,4 +9,3 @@ ENTRYPOINT []
 CMD ["node", "service.js"]
 
 EXPOSE 5000
-	

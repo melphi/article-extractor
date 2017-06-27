@@ -1,9 +1,11 @@
-from asyncio import Semaphore, get_event_loop
+import asyncio
 from aiohttp import ClientSession
+from uvloop import new_event_loop
 
 
-# TODO: Implement https://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html
-semaphore = Semaphore(1000)
+# TODO: Consider Semaphores
+# https://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html
 
 client_session = ClientSession()
-event_loop = get_event_loop()
+event_loop = new_event_loop()
+asyncio.set_event_loop(event_loop)
