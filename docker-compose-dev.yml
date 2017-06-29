@@ -6,3 +6,8 @@ services:
     ports:
       - 5000:5000
 
+  article-extractor:
+    build: ./python
+    ports:
+      - 8000:8000
+

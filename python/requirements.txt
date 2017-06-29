@@ -4,5 +4,5 @@ uvloop
 # Notes: pycld2 needs to be installed manually.
 # 1) Update anaconda libgcc with "conda install libgcc"
 # 2) Clone pycld2 with "git clone https://github.com/aboSamoor/pycld2"
-# 3) Install pycld2 with "python3 setup.py install"
+# 3) Move to pycld2 folder and install with "python3 setup.py install"
 # pycld2
