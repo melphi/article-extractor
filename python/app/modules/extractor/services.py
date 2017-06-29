@@ -67,6 +67,8 @@ class DocumentExtractorService(object):
     def _extract_page_info(article: dict, url: str) -> dict:
         """Extracts additional page information."""
 
+        if not article:
+            return {}
         language = detect(article['content_text'])
         if len(language) > 2 and len(language[2]) > 1:
             language_code = language[2][0][1]
@@ -97,13 +99,13 @@ class DocumentExtractorService(object):
 
         page_raw = await self._page_fetcher.fetch_page(url)
         article = await self._extract_article_info(page_raw.content, url)
-        if not article:
-            return {}
         page = self._extract_page_info(article, url)
         return {'article': article, 'page': page}
 
     async def _extract_article_info(self, content: str, url: str) -> dict:
         article = await self._article_extractor.extract_article(content, url)
+        if not article:
+            return {}
         article['links'] = list(set(self._ARTICLE_LINK_REGEX.findall(
             article['content_html'])))
         article['images'] = list(set(self._ARTICLE_IMAGE_REGEX.findall(
