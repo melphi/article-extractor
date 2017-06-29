@@ -3,7 +3,7 @@
 set -e -x
 
 docker build -t dainco/readability ./js/readability
-docker build -t dainco/article-extractor./python
+docker build -t dainco/article-extractor ./python
 
 if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
   docker login -u="${DOCKER_USERNAME}" -p="${DOCKER_PASSWORD}";
