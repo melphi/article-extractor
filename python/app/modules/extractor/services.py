@@ -13,7 +13,7 @@ class ArticleExtractor(object):
 
 
 class ReadabilityArticleExtractor(ArticleExtractor):
-    _READABILITY_URL = 'http://readability:5000/extract'
+    _READABILITY_URL = 'http://localhost:5000/extract'
 
     def __init__(self, client_session: ClientSession):
         self._client_session = client_session
@@ -25,9 +25,14 @@ class ReadabilityArticleExtractor(ArticleExtractor):
             assert response.status == 200, \
                 'TextExtractor service returned status [%d].' % response.status
         json = await response.json()
-        return {'authors': json['byline'], 'summary': json['excerpt'],
-                'length': json['length'], 'content_html': json['content'],
-                'content_text': json['textContent'], 'title': json['title']}
+        if not json:
+            return {}
+        return {'authors': json.get('byline'),
+                'summary': json.get('excerpt'),
+                'length': json.get('length'),
+                'content_html': json.get('content'),
+                'content_text': json.get('textContent'),
+                'title': json.get('title')}
 
 
 class PageFetcher(object):
@@ -97,8 +102,8 @@ class DocumentExtractorService(object):
 
     async def _extract_article_info(self, content: str, url: str) -> dict:
         article = await self._article_extractor.extract_article(content, url)
-        article['links'] = set(self._ARTICLE_LINK_REGEX.findall(
-            article['content_html']))
-        article['images'] = set(self._ARTICLE_IMAGE_REGEX.findall(
-            article['content_html']))
+        article['links'] = list(set(self._ARTICLE_LINK_REGEX.findall(
+            article['content_html'])))
+        article['images'] = list(set(self._ARTICLE_IMAGE_REGEX.findall(
+            article['content_html'])))
         return article
