@@ -9,5 +9,5 @@ class ExtractorResources(object):
         data = await request.json()
         if not data.get('url'):
             web.json_response({'error': 'Missing property url'}, status=400)
-        result = await extractor_service.extract()
+        result = await extractor_service.extract(data.get('url'))
         return web.json_response(result)
