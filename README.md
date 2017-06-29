@@ -21,13 +21,8 @@ This will build a local image and then run the application. From the source fold
 
 ## Usage
 
-<p>
-Check if the service is up with by pointing the broswer at:<br/>
-http://localhost:8000/health<br/>
-A healthy message should appear.<br/>
-</p>
+Check if the service is up with by pointing the broswer at http://localhost:8000/health. A healthy message should appear.
 
-<p>
 From command line run (replace the url value with the url to scrape):<br/>
+
 `curl -H "Content-Type: application/json" -X POST -d '{"url":"http://www.stopfake.org/en/news/"}' http://localhost:8000/extract`
-</p>
