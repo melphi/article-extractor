@@ -25,4 +25,4 @@ Check if the service is up with by pointing the broswer at http://localhost:8000
 
 From command line run (replace the url value with the url to scrape):<br/>
 
-`curl -H "Content-Type: application/json" -X POST -d '{"url":"http://www.stopfake.org/en/news/"}' http://localhost:8000/extract`
+`curl -H "Content-Type: application/json" -X POST -d '{"url":"https://www.washingtonpost.com/world/europe/europe-has-been-working-to-expose-russian-meddling-for-years/2017/06/25/e42dcece-4a09-11e7-9669-250d0b15f83b_story.html"}' http://localhost:8000/extract`
