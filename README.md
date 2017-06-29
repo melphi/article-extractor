@@ -10,13 +10,20 @@ Extracts the article content from web pages.
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Easy installation
+This will download the pre built images from Docker hub.
+
 `sudo docker-compose -f docker-compose.hub.yml up`
 
 ### Custom installation
-From the source folders run:
+This will build a local image and then run the application. From the source folders run:
 
 `sudo docker-compose -f docker-compose.dev.yml up`
 
-It will take a while the first time, once the image is build it will be quicker.
-
 ## Usage
+
+Check if the service is up with by pointing the broswer at:
+http://localhost:8000/health
+A healthy message should appear.
+
+From command line run (replace the url value with the url to scrape):
+`curl -H "Content-Type: application/json" -X POST -d '{"url":"http://www.stopfake.org/en/news/"}' http://localhost:8000/extract`
