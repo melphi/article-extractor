@@ -5,7 +5,7 @@ var readability = require('./readability');
 var restify = require('restify');
 
 var server = restify.createServer({
-    name: 'myapp',
+    name: 'readability-service',
     version: '1.0.0'
 });
 server.use(restify.acceptParser(server.acceptable));
@@ -23,7 +23,6 @@ server.post('/extract', function (req, res, next) {
         res.send(400, 'HTML can not be parsed.');
         return next();
     }
-
     const result = new readability.Readability(req.params.url, dom.window.document).parse();
     if (!result) {
         res.send(200, {});
