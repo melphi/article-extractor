@@ -1,0 +1,9 @@
+sudo: required
+
+services:
+  - docker
+
+cache: pip
+install: true
+
+script: bash .ci/travis-script.sh
