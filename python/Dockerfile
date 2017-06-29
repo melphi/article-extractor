@@ -1,4 +1,4 @@
- FROM python:3.6-slim
+FROM python:3.6-slim
 
 COPY app/ /opt/app
 COPY extract_server.py /opt
