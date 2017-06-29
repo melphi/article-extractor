@@ -69,7 +69,7 @@ class DocumentExtractorService(object):
 
         if not article:
             return {}
-        language = detect(article['content_text'])
+        language = detect(article.get('content_text'))
         if len(language) > 2 and len(language[2]) > 1:
             language_code = language[2][0][1]
         else:
@@ -107,7 +107,7 @@ class DocumentExtractorService(object):
         if not article:
             return {}
         article['links'] = list(set(self._ARTICLE_LINK_REGEX.findall(
-            article['content_html'])))
+            article.get('content_html'))))
         article['images'] = list(set(self._ARTICLE_IMAGE_REGEX.findall(
-            article['content_html'])))
+            article.get('content_html'))))
         return article
