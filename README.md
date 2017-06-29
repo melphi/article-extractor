@@ -1,4 +1,4 @@
-# article-extractor
+# Article Extractor
 Extracts the article content from web pages.
 
 ## Installation
