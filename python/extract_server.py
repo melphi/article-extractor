@@ -5,4 +5,4 @@ from aiohttp import web
 from app.app import app
 
 
-web.run_app(app, host='0.0.0.0', port=8000)
+web.run_app(app, port=8000)
