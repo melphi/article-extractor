@@ -97,6 +97,8 @@ class DocumentExtractorService(object):
 
         page_raw = await self._page_fetcher.fetch_page(url)
         article = await self._extract_article_info(page_raw.content, url)
+        if not article:
+            return {}
         page = self._extract_page_info(article, url)
         return {'article': article, 'page': page}
 
