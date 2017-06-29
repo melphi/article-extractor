@@ -5,7 +5,7 @@ COPY extract_server.py /opt
 COPY requirements.txt /opt
 
 WORKDIR /opt
-RUN apt-get update -y
+RUN apt-get update
 RUN pip install -r requirements.txt
 
 # In case of errors dowlonad https://github.com/aboSamoor/pycld2 and then
@@ -13,8 +13,9 @@ RUN pip install -r requirements.txt
 COPY lib/libstdc++.so.6 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 COPY lib/pycld2 /usr/local/lib/python3.6/site-packages/pycld2
 
-RUN useradd -ms /bin/bash theuser
-RUN chown theuser -R /opt
+RUN groupadd theuser
+RUN useradd -g user theuser
+RUN chown theuser.theuser -R /opt
 USER theuser
 
 ENTRYPOINT []
