@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/melphi/article-extractor.svg?branch=master)](https://travis-ci.org/melphi/article-extractor)
+
 # Article Extractor
 Extracts the article content from web pages.
 
@@ -15,6 +17,6 @@ From the source folders run:
 
 `sudo docker-compose -f docker-compose.dev.yml up`
 
-It will take a while the first time as it builds all the image in local.
+It will take a while the first time, once the image is build it will be quicker.
 
 ## Usage
