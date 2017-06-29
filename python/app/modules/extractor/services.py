@@ -13,7 +13,7 @@ class ArticleExtractor(object):
 
 
 class ReadabilityArticleExtractor(ArticleExtractor):
-    _READABILITY_URL = 'http://localhost:5000/extract'
+    _READABILITY_URL = 'http://readability:5000/extract'
 
     def __init__(self, client_session: ClientSession):
         self._client_session = client_session
