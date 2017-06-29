@@ -14,7 +14,7 @@ COPY lib/libstdc++.so.6 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 COPY lib/pycld2 /usr/local/lib/python3.6/site-packages/pycld2
 
 RUN groupadd theuser
-RUN useradd -g user theuser
+RUN useradd -g theuser theuser
 RUN chown theuser.theuser -R /opt
 USER theuser
 
