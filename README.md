@@ -30,5 +30,5 @@ From command line run (replace the url value with the url to scrape):<br/>
 ## Known issues
 * Non article like pages are not parsed.
 * An agent header should be sent to avoid connection issues.
-* More processed should be spawn to improve multi code performances.
+* More processed should be spawn to improve multi core performances.
  
